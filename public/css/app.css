@@ -1,4 +1,23 @@
+main {
+  background-color: darkgray;
+  height: calc(100vh - 70px);
+}
+
 main .container .card {
   height: 200px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 7px #353535;
+}
+
+header {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+header .navbar .container-fluid .navbar-brand {
+  color: red;
+  font-size: 30px;
 }
 

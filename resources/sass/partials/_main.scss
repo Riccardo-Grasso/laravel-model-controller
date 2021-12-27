@@ -1,7 +1,12 @@
 main {
+    background-color: darkgray;
+    height: calc(100vh - 70px);
+
     .container {
         .card {
             height: 200px;
+            border: 1px solid black;
+            box-shadow: 3px 3px 7px rgb(53, 53, 53);
         }
     }
 }
