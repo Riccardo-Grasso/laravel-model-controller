@@ -10,7 +10,6 @@ class HomeController extends Controller
     function index()
     {
         $movies = Movie::all();
-        dump($movies);
         return view('home.index', [
             "movies" => $movies
         ]);
