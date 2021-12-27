@@ -11,6 +11,8 @@ class HomeController extends Controller
     {
         $movies = Movie::all();
         dump($movies);
-        return view('home.index');
+        return view('home.index', [
+            "movies" => $movies
+        ]);
     }
 }
